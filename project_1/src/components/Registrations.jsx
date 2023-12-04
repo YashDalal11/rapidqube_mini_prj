@@ -1,6 +1,7 @@
 import React from 'react'
 import './Registrations.css'
 
+
 export const Registrations = () => {
 
    // const handleInput=()=>{}
@@ -27,8 +28,10 @@ export const Registrations = () => {
        <label htmlFor="password"><b>Password</b></label>
        <input type="text"  name="password" id="password"/>
        </div>
+        
+        
+       
 
-       <button type="submit">Register</button>
    </form>
    </>
   )
